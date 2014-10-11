@@ -1,5 +1,6 @@
 class GreetingsController < ApplicationController
   def hello
+  	@time = Time.now
   end
 
   def goodbye
